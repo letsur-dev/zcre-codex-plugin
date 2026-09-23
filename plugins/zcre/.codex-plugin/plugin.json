@@ -1,0 +1,25 @@
+{
+  "name": "zcre",
+  "version": "1.0.0",
+  "description": "ZCRE 모델 조회, 참조 파일 업로드와 이미지·영상·오디오 생성을 Codex에서 사용합니다.",
+  "author": {
+    "name": "ZCRE",
+    "url": "https://www.zcre.co.kr"
+  },
+  "homepage": "https://www.zcre.co.kr/mcp",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ZCRE",
+    "shortDescription": "Codex에서 이미지·영상·오디오를 만드세요.",
+    "longDescription": "ZCRE 계정으로 로그인해 모델과 예상 크레딧을 확인하고, 참조 파일을 추가해 원하는 콘텐츠를 생성하세요. 생성 전 승인이 필요하며 기존 ZCRE 크레딧을 사용합니다.",
+    "developerName": "ZCRE",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://www.zcre.co.kr",
+    "defaultPrompt": [
+      "ZCRE에서 사용 가능한 모델을 보여줘. 새 생성은 하지 마.",
+      "Seedance 2.5 참조 파일을 추가할 창을 열어줘.",
+      "내 최근 완료된 생성 결과를 보여줘. 새 생성은 하지 마."
+    ]
+  }
+}
