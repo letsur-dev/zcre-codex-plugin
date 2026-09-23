@@ -35,7 +35,11 @@ native tool surface. A separate CLI/app-server readback does not satisfy this.
 
 ## Documentation patch
 
-Remove blanket restart instructions and distinguish login from tool readiness.
+The owner subsequently approved including a full app restart within the browser
+consent step of the four-step customer guide. The final step now shows generation
+in the existing chat, using the owner-supplied successful image-generation capture.
+This documents the observed recovery; it does not establish restart-free support.
+Distinguish login from tool readiness.
 Installation agents must inspect fresh tool availability and use a read-only
 model query before announcing success. These changes prevent misleading guidance;
 they do not patch Codex's desktop runtime or establish restart-free support.

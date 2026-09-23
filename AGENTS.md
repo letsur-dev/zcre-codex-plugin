@@ -15,10 +15,12 @@ These instructions apply when helping a user install or connect this package.
 - If tools remain unavailable, use a documented host refresh capability only
   when it is actually exposed and callable in the current environment. Do not
   invent a chat command or claim that a natural-language refresh request ran it.
-- Do not route users to an unverified MCP-list authentication button, require
-  restart/reinstallation/new chat as a blanket step, or promise restart-free
-  activation. Explain the observed limitation precisely and distinguish a
-  suggested recovery from a recovery verified in this host.
+- Follow the owner-approved onboarding guide: installation request, login request,
+  browser consent plus a full app restart, then generation in the existing chat.
+  The restart is based on the observed first-connection case, not a requirement
+  before every use. Do not substitute an unverified MCP-list authentication
+  button or promise restart-free activation. A generation example in a guide
+  is not authorization to execute it while editing or testing the guide.
 - Do not bypass denied app automation, read/extract OAuth credentials, alter
   another connection, or start a separate runtime and present its success as
   proof that the existing desktop conversation refreshed.
